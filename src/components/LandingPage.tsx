@@ -25,13 +25,13 @@ const LandingPage = () => {
             {/* Left Content (Typography) */}
             <div className="space-y-8 pt-32 md:pt-32">
                <h1 className="text-5xl md:text-7xl font-bold text-white leading-[1.1] tracking-tight">
-                 FRESH <br/>
-                 <span className="text-[#2fcf9c]">EXAM PREP.</span><br/>
+                 SMOOTH <br/>
+                 <span className="text-[#2fcf9c]">EXAM PREP</span><br/>
                  INSTANTLY.
                </h1>
                <p className="text-xl text-gray-300 max-w-md">
                  <span className="font-extrabold italic">Mint Your Success</span>  <br/>
-                 Turn raw notes into exam-ready questions, summaries, and flashcards in seconds.
+                 Turn raw and bulky notes into exam-ready questions, summaries, and flashcards in seconds.
                </p>
                <button 
                  onClick={startApp}
@@ -50,7 +50,7 @@ const LandingPage = () => {
                 </div>
                 
                 <h3 className="text-3xl font-bold text-white mb-4">Smart Exam<br/>Intelligence</h3>
-                <p className="text-gray-300 text-sm mb-6">From messy handouts to A+ prep materials.</p>
+                <p className="text-gray-300 text-sm mb-6">From confusing handouts to A+ prep materials.</p>
                 
                 <div className="bg-[#0a1f33] rounded-2xl p-4 relative overflow-hidden h-40 flex items-center justify-between">
                    <FileText className="text-gray-500 w-10 h-10" />
@@ -103,7 +103,7 @@ const LandingPage = () => {
         {/* ... (Features Content) ... */}
         <div className="grid md:grid-cols-3 gap-8">
           {[
-            { icon: <Brain size={32}/>, title: "Lecturer Pattern Intel", desc: "Upload past questions and we'll detect repeating topics and question styles specific to your prof." },
+            { icon: <Brain size={32}/>, title: "Lecturer Pattern Intel", desc: "Upload past questions and we'll detect repeating topics and question styles specific to your professor." },
             { icon: <Zap size={32}/>, title: "Instant Flashcards", desc: "Don't waste hours writing cards. Get mint-fresh decks generated instantly from your PDF." },
             { icon: <TrendingUp size={32}/>, title: "Exam Week Mode", desc: "Panic button? We got you. Get the 10 most likely topics and a compressed summary in one click." }
           ].map((feature, i) => (
