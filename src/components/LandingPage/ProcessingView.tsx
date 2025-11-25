@@ -10,7 +10,7 @@ const ProcessingView = () => (
         <Brain className="w-12 h-12 text-[#2fcf9c]" />
       </div>
     </div>
-    <h2 className="text-3xl font-bold text-white mb-4">Minting Your Success...</h2>
+    <h2 className="text-3xl font-bold text-white mb-4">Buckling Your Success...</h2>
     <div className="flex flex-col gap-2 text-gray-400 max-w-md">
       <div className="flex items-center gap-3 animate-pulse">
         <CheckCircle className="w-4 h-4 text-[#2fcf9c]" /> Scanning document structure

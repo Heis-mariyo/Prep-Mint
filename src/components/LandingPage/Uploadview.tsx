@@ -12,7 +12,7 @@ const UploadView = () => {
 
             <div className="w-full max-w-4xl mx-auto relative z-10">
             <div className="text-center mb-12">
-                <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Ready to Mint?</h2>
+                <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Ready to Buckle?</h2>
                 <p className="text-gray-400 text-lg">Upload handouts, past questions, or handwritten notes.</p>
             </div>
 
