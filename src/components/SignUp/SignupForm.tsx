@@ -42,6 +42,7 @@ const SignupForm = () => {
           <input 
             type="email" 
             placeholder="student@university.edu"
+            required
             className="w-full bg-[#0a1f33]/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-[#2fcf9c] focus:ring-1 focus:ring-[#2fcf9c] transition-all"
             suppressHydrationWarning
           />
@@ -54,6 +55,7 @@ const SignupForm = () => {
             <input 
               type={showPassword ? "text" : "password"} 
               placeholder="••••••••"
+              required
               className="w-full bg-[#0a1f33]/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-[#2fcf9c] focus:ring-1 focus:ring-[#2fcf9c] transition-all pr-10"
               suppressHydrationWarning
             />
