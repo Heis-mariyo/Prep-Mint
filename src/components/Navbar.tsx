@@ -2,6 +2,7 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
+import Link from 'next/link';
 
 // NOTE: Using <a> tags instead of next/link for preview compatibility. 
 // NOTE: Using <img> tag instead of next/image for preview compatibility.
@@ -40,12 +41,12 @@ const Navbar = () => {
           <a href="/login" className="hover:text-[#2fcf9c] transition-colors">Login</a>
           <a href="/signup" className="hover:text-[#2fcf9c] transition-colors">Sign Up</a>
           <a href="#pricing" className="hover:text-[#2fcf9c] transition-colors">Pricing</a>
-          <button 
-            onClick={startApp}
-            className="px-6 py-2.5 bg-[#2fcf9c] hover:bg-[#3ddc95] text-[#0a1f33] font-bold rounded-full transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(47,207,156,0.3)]"
-          >
-            {appMode ? 'New Upload' : 'Try Demo'}
-          </button>
+          {/* LINKED TO DASHBOARD */}
+          <Link href="/dashboard">
+            <button className="px-6 py-2.5 bg-[#2fcf9c] hover:bg-[#3ddc95] text-[#0a1f33] font-bold rounded-full transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(47,207,156,0.3)]">
+              Demo
+            </button>
+          </Link>
         </div>
 
         {/* Mobile Menu Toggle */}
