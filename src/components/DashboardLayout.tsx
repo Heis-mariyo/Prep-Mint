@@ -109,13 +109,14 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
               <Settings size={20} className="flex-shrink-0" />
               {isSidebarOpen && <span>Settings</span>}
             </Link>
-            <button 
+            <Link 
               className={`flex items-center gap-3 px-3 py-3 text-red-400 hover:text-red-300 w-full rounded-xl hover:bg-red-500/10 transition-colors mt-1 ${!isSidebarOpen && 'justify-center'}`}
               title="Logout"
+              href={"/"}
             >
               <LogOut size={20} className="flex-shrink-0" />
               {isSidebarOpen && <span>Logout</span>}
-            </button>
+            </Link>
           </div>
         </aside>
 
